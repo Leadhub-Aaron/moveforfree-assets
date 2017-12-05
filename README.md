@@ -5,7 +5,7 @@ Using
 
 First clone or download this repo.
 
-You'll need to use a terminal to run the scripts. Start off by switching to the directory of your project; this command should be the same on both Windows CMD.exe and in the OS X Terminal.
+You'll need to use a terminal to run the scripts. Start off by switching to the directory of this downloaded project; the command should be the same on both Windows CMD.exe and in the OS X Terminal.
 
 ```
 cd /path/to/my/directory
@@ -23,3 +23,7 @@ Lastly, run the build script:
 ```
 npm build
 ```
+
+Further Reading
+===============
+- Find more about Gulp [here](https://gulpjs.com/) (main page) or [here](https://github.com/gulpjs/gulp/blob/master/docs/API.md) (docs)
