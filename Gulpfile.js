@@ -7,9 +7,12 @@ var merge = require('merge2')
 
 var jQueryUrl = 'https://code.jquery.com/';
 
+// our destination folder for
+// the bundled code
 var dest = 'assets';
 
 gulp.task('scripts', function() {
+    // you can grab sources from a remote URL
     var remote = gulpRemote([
         'jquery-1.12.4.js',
         'ui/1.12.1/jquery-ui.js',
@@ -17,6 +20,7 @@ gulp.task('scripts', function() {
         base: jQueryUrl,
     });
 
+    // or locally
     var local = gulp.src([
         'src/parrallax.js',
         'node_modules/bootstrap/dist/js/bootstrap.js',
